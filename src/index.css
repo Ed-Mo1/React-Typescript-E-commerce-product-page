@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav_link {
+    @apply text-neutral-dark-grayish-blue pb-12 relative before:inset-x-0 before:-bottom-[1px] before:rounded-full before:h-0.5 before:bg-primary-orange block font-semibold capitalize;
+  }
+  .inc_dec_btn {
+    @apply text-2xl  text-primary-orange;
+  }
+
+  .add_to_cart_btn {
+    @apply flex-grow gap-4 max-lg:w-full flex justify-center items-center py-4 rounded-lg bg-primary-orange text-white font-bold;
+  }
+}

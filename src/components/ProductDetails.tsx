@@ -25,7 +25,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="flex pb-5 justify-around  max-lg:flex-col gap-10 lg:gap-28 xl:gap-36  items-center">
+    <div className="flex pb-5 justify-around  max-lg:flex-col gap-10 lg:gap-16 xl:gap-32  items-center">
       <div className="flex-1 lg:max-w-[30rem]">
         <div className="max-lg:hidden">
           <ProductImages />

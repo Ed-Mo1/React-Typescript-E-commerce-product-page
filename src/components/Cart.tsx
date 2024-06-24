@@ -33,7 +33,9 @@ const Cart = () => {
     <div className="rounded-lg overflow-x-hidden shadow-xl bg-white">
       <div className="flex px-4 pt-4 pb-6 border-b border-gray-300 justify-between items-center">
         <h2 className="text-2xl">Cart</h2>
-        <h3>Total Price: {totalPrice}</h3>
+        <h3>
+          Total Price: <span className="font-bold">${totalPrice}</span>
+        </h3>
       </div>
 
       <div

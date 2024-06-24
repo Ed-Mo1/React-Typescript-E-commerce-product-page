@@ -19,7 +19,7 @@ const ProductImages = ({ showSwtch }: { showSwtch?: boolean }) => {
   const dispatch = useAppDispatch();
   return (
     <div className="space-y-4 flex-1">
-      <AnimatePresence mode="wait"  initial={false}>
+      <AnimatePresence mode="wait" initial={false}>
         <div className="relative">
           <motion.img
             onClick={() => {
@@ -33,7 +33,7 @@ const ProductImages = ({ showSwtch }: { showSwtch?: boolean }) => {
             animate={{ opacity: 1, translateX: 0, transitionDuration: "0.1s" }}
             exit={{ opacity: 0, translateX: 10, transitionDuration: "0.1s" }}
             src={mainImages[activeImage]}
-            className="rounded-lg aspect-square lg:cursor-pointer"
+            className="rounded-lg lg:cursor-pointer"
             alt="image"
           />
           {showSwtch && (
